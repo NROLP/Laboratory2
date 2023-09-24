@@ -1,0 +1,21 @@
+Laboratory #2
+Due tomorrow at 11:59 PM
+
+Instructions:
+
+Create a simple Music Player with Playlist.
+
+features: 
+Build a music player under ci4 framework. create your own column in db
+the apps can able to upload music, create playlist, add music to playlist, remove music from playlist and search music
+
+advance elements:
+modal
+input:file
+html5:audio
+
+-----------------------------------------------------
+Progress sa LAB 2
+
+- Napa-display kona yung TEMPLETE
+- 

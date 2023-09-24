@@ -1,0 +1,90 @@
+CRITICAL - 2023-09-23 12:03:17 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\MusicController.php(16): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->display()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-23 12:03:30 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\MusicController.php(16): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->display()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-23 12:03:31 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\MusicController.php(16): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->display()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-23 12:03:31 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\MusicController.php(16): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->display()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-23 12:03:31 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\MusicController.php(16): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->display()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-23 12:03:32 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\MusicController.php(16): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->display()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-23 12:03:32 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\MusicController.php(16): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->display()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-23 12:03:47 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\MusicController.php(16): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->display()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-23 12:03:54 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\MusicController.php(16): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->display()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Laboratory2\\public\\index.php')
