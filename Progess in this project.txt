@@ -19,3 +19,6 @@ Progress sa LAB 2
 
 - Napa-display kona yung TEMPLETE
 - 
+
+
+- Copy muna NO CHANGING - VIEWS -> CONTROLLERS -> DATABASE -> ROUTES -> MODELS -> PUBLIC (SONG UPLOAD FOLDER) -> 
