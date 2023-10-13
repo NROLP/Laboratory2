@@ -20,9 +20,9 @@
   <?php include 'add/style.php'; ?>
 
 
-  <form action="/" method="get">
-    <input type="search" name="search" placeholder="search song">
-    <button type="submit" class="btn btn-primary">search</button>
+  <form action="/display" method="get">
+    <input type="search" name="search" placeholder="Search song" value="<?= isset($search) ? esc($search) : '' ?>">
+    <button type="submit" class="btn btn-primary">Search</button>
   </form>
 
   <h1>Music Player</h1>
@@ -34,6 +34,8 @@
   <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
     My Playlist
   </button>
+
+  <a href="/MainSongController" class="btn btn-success">Home</a>
 
   <audio id="audio" controls></audio>
 
@@ -56,9 +58,7 @@
     <?php endforeach; ?>
   </ul>
 
-
   <script src="/jav/scriptBot.js"></script>
-
 
 </body>
 
@@ -68,7 +68,6 @@
     $('.add-to-playlist-btn').click(function() {
 
       var songId = $(this).data('song-id');
-
 
       $('#song_id').val(songId);
     });

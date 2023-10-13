@@ -54,6 +54,9 @@ class TblSongModel extends Model
 
         return $builder->get()->getResultArray();
     }
-}
 
-
+    public function searchSongs($searchTerm)
+    {
+        return $this->like('title', $searchTerm)->findAll();
+    }
+}   

@@ -24,14 +24,28 @@ class MainSongController extends BaseController
     }
 
     public function display()
-    {
+{
+    $search = $this->request->getGet('search'); // Get the search query from the URL
+
+    // Check if a search query is provided
+    if ($search) {
+        // Perform a database query to search for songs based on the $search value
+        $data = [
+            'songs' => $this->songs->searchSongs($search), // Replace with your search function
+            'playlists' => $this->playlists->findAll(),
+        ];
+        
+    } else {
+        // No search query, display all songs
         $data = [
             'songs' => $this->songs->findAll(),
             'playlists' => $this->playlists->findAll(),
         ];
-
-        return view('MainPage', $data);
     }
+
+    return view('/MainPage', $data);
+}
+
 
     public function addSong()
     {
@@ -133,5 +147,19 @@ class MainSongController extends BaseController
 
         // Load the view and pass the $data array to it
         return view('Playlist', $data);
+    }
+
+    public function searchSong()
+    {
+        $searchTerm = $this->request->getVar('search');
+
+        // Assuming you have a model to handle database operations
+        $results = $this->songs->searchSongs($searchTerm);
+
+        $data = [
+            'results' => $results,
+        ];
+
+        return view('search_results', $data);
     }
 }

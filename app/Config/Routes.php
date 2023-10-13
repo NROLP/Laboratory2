@@ -15,6 +15,6 @@ $routes->post('/MainSongController/addSong', 'MainSongController::addSong');
 $routes->post('/MainSongController/deleteSong', 'MainSongController::deleteSong');
 $routes->post('/MainSongController/addToPlaylist', 'MainSongController::addToPlaylist');
 $routes->get('/MainSongController/playlist/(:num)', 'MainSongController::playlist/$1');
+$routes->get('/MainSongController/search', 'MainSongController::searchSong');
 
-
-
+$routes->get('display', 'MainSongController::display'); // TO SEARCH SONGS
