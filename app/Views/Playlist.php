@@ -23,12 +23,9 @@
         <?php endif; ?>
     <?php endforeach; ?>
 
-
-
-
     <a href="/MainSongController"><button type="button" class="btn btn-primary">
-       Home
-    </button></a>
+            Home
+        </button></a>
 
     <audio id="audio" controls></audio>
 
@@ -37,18 +34,17 @@
             <li data-src="<?= base_url($song['file']) ?>">
                 <?= $song['title'] ?>
 
-                <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#addToPlaylist">Add to Playlist</button>
+                <div class="btn-group">
+                    <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#addToPlaylist">Add to Playlist</button>
 
-                <!-- Add a delete button with a confirmation dialog -->
-                <form method="post" action="/MainSongController/deleteSong">
-                    <input type="hidden" name="song_id" value="<?= $song['song_id'] ?>">
-                    <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this song?')">Delete</button>
-                </form>
+                    <!-- Add a delete button with a confirmation dialog -->
+                    <form method="post" action="/MainSongController/deleteSong">
+                        <input type="hidden" name="song_id" value="<?= $song['song_id'] ?>">
+                        <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this song?')">Delete</button>
+                    </form>
+                </div>
             </li>
         <?php endforeach; ?>
     </ul>
 
 </body>
-
-
-

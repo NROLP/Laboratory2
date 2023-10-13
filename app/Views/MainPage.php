@@ -16,7 +16,7 @@
 </head>
 
 <body>
-  
+
   <?php include 'add/style.php'; ?>
 
 
@@ -39,37 +39,40 @@
 
   <ul id="playlist">
     <?php foreach ($songs as $song) : ?>
+
       <li data-src="<?= base_url($song['file']) ?>">
-        <?= $song['title'] ?>
+    <?= $song['title'] ?>
 
-          <button class="btn btn-success add-to-playlist-btn" data-song-id="<?= $song['song_id'] ?>" data-bs-toggle="modal"  data-bs-target="#addToPlaylist">Add to Playlist</button>
+    <div class="btn-group">
+        <button class="btn btn-success add-to-playlist-btn" data-song-id="<?= $song['song_id'] ?>" data-bs-toggle="modal" data-bs-target="#addToPlaylist">Add to Playlist</button>
 
-        <!-- Add a delete button with a confirmation dialog -->
         <form method="post" action="/MainSongController/deleteSong">
-          <input type="hidden" name="song_id" value="<?= $song['song_id'] ?>">
-          <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this song?')">Delete</button>
+            <input type="hidden" name="song_id" value="<?= $song['song_id'] ?>">
+            <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this song?')">Delete</button>
         </form>
-      </li>
+    </div>
+</li>
+
     <?php endforeach; ?>
   </ul>
 
 
   <script src="/jav/scriptBot.js"></script>
 
-  
+
 </body>
 
 
 <script>
-    $(document).ready(function() {
-      $('.add-to-playlist-btn').click(function() {
-        
-        var songId = $(this).data('song-id');
+  $(document).ready(function() {
+    $('.add-to-playlist-btn').click(function() {
 
-    
-        $('#song_id').val(songId);
-      });
+      var songId = $(this).data('song-id');
+
+
+      $('#song_id').val(songId);
     });
-  </script>
+  });
+</script>
 
 </html>
